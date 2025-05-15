@@ -1,0 +1,21 @@
+{
+  "languageserver": {
+    "tailwindcss": {
+      "command": "tailwindcss-language-server",
+      "filetypes": [
+        "html",
+        "jsx",
+        "tsx"
+      ],
+      "rootPatterns": [
+        "tailwind.config.*"
+      ]
+    }
+  },
+  "coc.preferences.enableMessageDialog": true,
+  "coc.preferences.formatOnSave": true,
+  "diagnostic.enableSign": false,
+  "colors.enable": true,
+  "notification.border": true,
+  "links.highlight": true
+}
