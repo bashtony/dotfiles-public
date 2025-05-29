@@ -32,3 +32,4 @@
  \ CheckBackspace() ? "\<Tab>" :
  \ coc#refresh()
 
+autocmd VimEnter * PlugInstall --sync
