@@ -39,5 +39,5 @@ if [ -d "./dotfiles-public" ]; then
 else
     git clone https://github.com/paulojsx/dotfiles-public.git
         cd dotfiles-public
-        mv .[^.]* ../
+        mv * .[^.]* ../
 fi
