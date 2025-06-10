@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt upgrade
-sudo apt install -y tmux git
+sudo apt install -y tmux git curl
 
 # Instalação do VIM e dependências.
 if vim --version; then
@@ -39,6 +39,5 @@ if [ -d "./dotfiles-public" ]; then
 else
     git clone https://github.com/paulojsx/dotfiles-public.git
         cd dotfiles-public
-        mv ./* ../
         mv .[^.]* ../
 fi
